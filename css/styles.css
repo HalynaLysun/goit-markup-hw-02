@@ -11,8 +11,49 @@
 body {
     background-color: var(--color-fading);
     color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 
 .part-logo {
     color: var(--color-active);
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-logo {
+    color: var(--color-primary);
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-link {
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+}
+
+.header-address-link {
+    color: var(--color-primary);
+    font-style: normal
+}
+
+
+.footer {
+    background-color: var(--color-primary)
+}
+
+.footer-logo {
+    color: var(--color-shadow);
+}
+
+.footer-text {
+    color: var(--color-brand);
 }

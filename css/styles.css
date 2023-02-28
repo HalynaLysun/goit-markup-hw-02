@@ -1,0 +1,18 @@
+:root {
+    --color-primary: #2E2F42;
+    --color-secondary: #434455;
+    --color-active: #4D5AE5;
+    --color-fading: #fff;
+    --color-brand: #E7E9FC;
+    --color-shadow: #F4F4FD;
+    --color-filtr: #404BBF;
+}
+
+body {
+    background-color: var(--color-fading);
+    color: var(--color-primary);
+}
+
+.part-logo {
+    color: var(--color-active);
+}

@@ -66,43 +66,90 @@ body {
 .section-title {
     background-color: var(--color-primary);
     color: var(--color-fading);
-    width: 1440px;
-    height: 600px;
 }
 
 .main-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    position: absolute;
-    width: 496px;
-    height: 120px;
-    left: 472px;
-    top: 260px;
 }
 
 .section-title-btn {
     background-color: var(--color-active);
     color: var(--color-fading);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
 }
 
+.section-hero-main-title {
+    color: rgba(0, 0, 0, 0)
+}
 
+.section-hero-list {
+    list-style: none;
+}
 
+.section-hero-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
+.section-hero-txt {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.gallery-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.gallery-list {
+    list-style: none;
+}
+
+.team{
+    background-color: var(--color-shadow);
+}
+
+.team-main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-item {
+    background-color: var(--color-fading);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
 
 .footer {
     background-color: var(--color-primary)

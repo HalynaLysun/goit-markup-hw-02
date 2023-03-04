@@ -51,7 +51,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.header-link:hover
+.header-link:hover,
 .header-link:focus {
     color: var(--color-filtr);
 }
@@ -65,17 +65,14 @@ body {
 }
 
 .header-address-link {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
  
-.header-address-link.link:hover
+.header-address-link.link:hover,
 .header-address-link.link:focus {
     color: var(--color-filtr);
 }
 
-.tel {
-    color: var(--color-secondary);
-}
 
 .section-title {
     background-color: var(--color-primary);
@@ -86,23 +83,19 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .section-title-btn {
     background-color: var(--color-active);
+    font-family: 'Roboto', sans-serif;
     color: var(--color-fading);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-}
-
-.section-hero-main-title {
-    color: rgba(0, 0, 0, 0)
-}
-
-.section-hero-list {
-    list-style: none;
+    cursor: pointer;
 }
 
 .section-hero-title {
@@ -126,10 +119,8 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-}
-
-.gallery-list {
-    list-style: none;
+    text-align: center;
+    text-transform: capitalize
 }
 
 .team{
@@ -142,10 +133,8 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-}
-
-.team-list {
-    list-style: none;
+    text-align: center;
+    text-transform: capitalize
 }
 
 .team-item {
@@ -187,7 +176,7 @@ body {
     letter-spacing: 0.04em;
 }
 
-.filters-btn:hover
+.filters-btn:hover,
 .filters-btn:focus {
     background-color: var(--color-filtr);
     color: var(--color-fading);
@@ -216,6 +205,17 @@ body {
 
 .footer {
     background-color: var(--color-primary)
+}
+
+.footer-link {
+    color: var(--color-active);
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .footer-logo {
